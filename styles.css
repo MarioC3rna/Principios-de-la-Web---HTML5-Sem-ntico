@@ -1,0 +1,73 @@
+
+/* Esto nos permite  modificar el tamaño de la web y el * sirve para seleccionar todo y poder modificar el tamaño */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primer-color: #649cb6;
+  --segundo-color: #ffffff;
+  --tercer-color: #39393ae1;
+  --cuarto-color: #00345f;
+  --spacing-md: 16px;
+}
+
+
+header {
+ background-color: var(--tercer-color);
+    
+}
+
+body {
+  background-color: var(--primer-color);
+}
+
+footer {
+  background-color: var(--cuarto-color);
+}
+
+.layout {
+
+ display: grid;
+ grid-template-areas: 
+ "header"
+ "main"
+ "footer";
+}
+
+
+header {grid-area: header;}
+main{grid-area: main;}
+footer{grid-area: footer;}
+
+@media (min-width: 768px) {
+  .layout {
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+      "header header"
+      "main main"
+      "footer footer";
+  }
+}
+
+
+.cards{
+    display:  flex;
+    flex-wrap: wrap;
+    gap:var(--spacing-md)
+    
+}
+
+.card {
+  width: 100%;
+  background-color: var(--segundo-color);
+  padding: var(--spacing-md);
+  border-radius: 3px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: calc(33.333% - var(--spacing-md));
+  }
+}

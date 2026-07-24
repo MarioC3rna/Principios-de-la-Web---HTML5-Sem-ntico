@@ -2,19 +2,19 @@
 <html lang="es">
 
 
-
 <!-- heder es la parte inicial... -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer HTML clase de desarrollo Web</title>
-</head>
+    <link rel="stylesheet" href="styles.css">
+</head >
 
 
 
 <!-- el body es la parte donde se almacena toda lo que quiere mostrar en la web, seria el cuerpo !-->
 <body>
-
+    <div class="layout">
     <header>
         <h1>Proyecto Integrador HTML5 Tienda Wbe</h1>
 
@@ -30,6 +30,27 @@
 
     <main>
 
+        <section class="cards">
+        <article class="card">
+        <h3 class="card__title">Reparacion de computadoras </h3>
+        <p class="card__text">Mantenimiento basico y solucion de problemas internos de la computadora</p>
+        </article>
+
+        <article class="card">
+        <h3 class="card__title">Productos</h3>
+        <p class="card__text"> Proximammente cuando le entienda mas habra apartado de productos</p>
+        </article> 
+        <article class="card card--featured">
+       <h3 class="card__title">Ofertas</h3>
+       <p class="card__text">Algunos de nuestros productos tienen la posibilidad de estar al 2x1</p>
+         </article>
+
+         
+
+
+
+      </section>
+
         <section id="inicio">
             <h2>Bienvenido al tienda web 8tvo</h2>
             <p>
@@ -42,12 +63,6 @@
             <h2>Nuestros Servicios</h2>
 
             <article>
-                <h3>Reparacion de computadoras</h3>
-
-               <p> Reparacion de laptop, computadoras de escritorios e impresoras
-            </article>
-
-            <article>
                 <h3>Soporte Técnico</h3>
                 <p>
                     Configuracion de  sistemas e instalacion de programas 
@@ -55,14 +70,6 @@
             </article>
         </section>
 
-        <section id="productos">
-            <h2>Productos</h2>
-            <p>
-                Proximammente cuando le entienda mas habra apartado de productos
-            </p>
-        </section>
-
-    
     </main>
 
 
@@ -74,6 +81,6 @@
 
         </p>
     </footer>
-
+   </div>     
 </body>
 </html>

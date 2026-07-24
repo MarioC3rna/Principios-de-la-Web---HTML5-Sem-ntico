@@ -14,3 +14,15 @@ Este proyecto es una pequeña parte de una estructura para una tienda web, como 
 ## Validación W3C
 ![alt text](image.png)
 
+
+
+Segunda parte de la tarea  css
+
+
+320px
+![alt text](image-1.png)
+
+1280px
+![alt text](image-2.png)
+
+
