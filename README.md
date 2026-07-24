@@ -25,4 +25,3 @@ Segunda parte de la tarea  css
 1280px
 ![alt text](image-2.png)
 
-
