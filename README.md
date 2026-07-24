@@ -23,5 +23,4 @@ Segunda parte de la tarea  css
 ![alt text](image-1.png)
 
 1280px
-![alt text](image-2.png)
-
+![alt text](image-3.png)
